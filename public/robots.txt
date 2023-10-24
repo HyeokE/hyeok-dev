@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hyeok.dev/
+
+# Sitemaps
+Sitemap: https://hyeok.dev/sitemap.xml
+Sitemap: https://hyeok.dev//server-sitemap.xml

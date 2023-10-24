@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Blog posts | RSS Feed]]></title>
+        <description><![CDATA[1년차 프론트엔지니어 정준혁의 블로그입니다.]]></description>
+        <link>https://hyeok.dev</link>
+        <image>
+            <url>https://hyeok.dev/logo.jpeg</url>
+            <title>Blog posts | RSS Feed</title>
+            <link>https://hyeok.dev</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 03 Oct 2023 00:20:41 GMT</lastBuildDate>
+        <atom:link href="https://hyeok.dev/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 03 Oct 2023 00:20:41 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2023]]></copyright>
+        <item>
+            <title><![CDATA[좋은 코드란 어떤 코드일까]]></title>
+            <description><![CDATA[최근 시니어 개발자분과 이야기를 나누면서 좋은 코드란 어떤 코드인가에 대해 고민해보게 되었다.
+개발을 하면서 고민했던 포인트들이 머리 속으로 정리된 것 같아 글로 기록해보려한다.]]></description>
+            <link>https://hyeok.dev/posts/좋은 코드란 어떤 코드일까</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/좋은 코드란 어떤 코드일까</guid>
+            <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[더 나은 커뮤니티로 발전하기]]></title>
+            <description><![CDATA[회고의 내용이 담긴 글입니다.
+7월을 기점으로 짧고도 긴 2년간의 GDSC 리드 활동이 마무리 된다.
+2년간 커뮤니티를 운영하면서 계속 고민하고 고민했던 좋은 커뮤니티(조직)에 대해 정리해보려고 한다.]]></description>
+            <link>https://hyeok.dev/posts/더 나은 커뮤니티로 발전하기</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/더 나은 커뮤니티로 발전하기</guid>
+            <pubDate>Sun, 06 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Polymorphic한 React 컴포넌트 만들기]]></title>
+            <description><![CDATA[사내 디자인 시스템을 개발하며 Polymorphic 컴포넌트를 개발하게 된 경험을 다루고 있어요.]]></description>
+            <link>https://hyeok.dev/posts/Polymorphic한 React 컴포넌트 만들기</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/Polymorphic한 React 컴포넌트 만들기</guid>
+            <pubDate>Fri, 14 Apr 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[왜 리액트에서는 이벤트 위임을 쓰지 않을까?]]></title>
+            <description><![CDATA[리액트에서는 이미 이벤트 위임이 처리되고 있어서, 별도로 이벤트 위임을 구현할 필요가 없다. onClick과 같은 이벤트들이 실제 DOM에 붙여지는 것이 아니라 document에서 모든 이벤트를 처리하고 있다.]]></description>
+            <link>https://hyeok.dev/posts/왜 리액트에서는 이벤트 위임을 쓰지 않을까</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/왜 리액트에서는 이벤트 위임을 쓰지 않을까</guid>
+            <pubDate>Sat, 18 Feb 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[자바스크립트의 Callback Queue]]></title>
+            <description><![CDATA[자바스크립트는 싱글스레드 언어이기 때문에 비동기 처리를 위해 Promise, async 등을 사용한다. 이번 글에서는 Callback Queue에 대해 자세히 알아보고, Microtask Queue와 Task Queue의 우선순위를 설명한다. 마이크로태스크가 우선순위에 있으며, Animation Frames을 포함한 콜백함수는 Task Queue보다 우선 처리된다.]]></description>
+            <link>https://hyeok.dev/posts/자바스크립트의 Callback Queue</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/자바스크립트의 Callback Queue</guid>
+            <pubDate>Sat, 14 Jan 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[비전공자 프론트엔드 취업 후기]]></title>
+            <description><![CDATA[이 글은 21년 10월부터 22년 12월 취업까지의 여정을 담고 있습니다.
+블로그를 처음 보시는 분들을 위해 제 소개를 간단하게 드리려고 합니다.]]></description>
+            <link>https://hyeok.dev/posts/프론트엔드 취업 후기</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/프론트엔드 취업 후기</guid>
+            <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[JSdoc을 Markdown으로 변환하기]]></title>
+            <description><![CDATA[최근 Toss의 오픈 소스 Slash가 공개되었는데 엄청나게 방대한 양의 문서들이 있었다. 이 많은 유틸들을 어떻게 문서화했는지 궁금해서 파일을 뜯어보았다.
+기본적인 베이스는 Docusorous로 마크다운 사이트 빌드 프레임워크를 사용 중이었고 내부 글들은 JSDOC으로 관리되고 있었다.]]></description>
+            <link>https://hyeok.dev/posts/JSdoc을 Markdown으로 변환하기</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/JSdoc을 Markdown으로 변환하기</guid>
+            <pubDate>Mon, 14 Nov 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[왜 Jotai는 Provider가 필요없을까?]]></title>
+            <description><![CDATA[이는 jotai가 내부적으로 react 의 context API를 이용하기 때문에 가능한 것이다.
+다만, Provier가 없다면 하위 컴퍼넌트들에서 구독하는 context들이 리렌더링이 되지 않을 것이다.jotai는 이것을 가능하게 만들었으며, Provider 하위 컴퍼넌트 전체가 리렌더링되는 문제를 개선했다고 보면 된다.]]></description>
+            <link>https://hyeok.dev/posts/Jotai를 사용해보자</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/Jotai를 사용해보자</guid>
+            <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22.11.02 회고록]]></title>
+            <description><![CDATA[이번 회고는 GDSC 리드로서의 내용만 담아보려고 한다.]]></description>
+            <link>https://hyeok.dev/posts/22.11.02 회고록</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/22.11.02 회고록</guid>
+            <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[22.10.24 회고록]]></title>
+            <description><![CDATA[원티드 프리온보딩 챌린지, 취업 활동, 토스 서류 합격과 과제, 커피챗 요청, 맛집 기록 서비스 개발, 그리고 GDSC 리드로서의 활동에 대해 다루고 있다.]]></description>
+            <link>https://hyeok.dev/posts/22.10.24 회고록</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/22.10.24 회고록</guid>
+            <pubDate>Mon, 24 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webpack과 rollup 중 어떤게 좋을까?]]></title>
+            <description><![CDATA[프론트엔드 개발을 하다보면 접하게 되는 번들러, 그 중 제가 애용하고 있는 webpack과 Rollup에 대해서 알아보고 각각 어떤 장단점이 있는지 알아보려고 합니다.]]></description>
+            <link>https://hyeok.dev/posts/webpack과 rollup 중 어떤게 좋을까?</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/webpack과 rollup 중 어떤게 좋을까?</guid>
+            <pubDate>Thu, 20 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react-router를 구현해보자]]></title>
+            <description><![CDATA[원티드 프리온보딩 챌린지 첫번째 과제 React와 History API 사용하여 SPA Router 기능 구현하기를 해결해봅시다.
+이미 글 쓰는 시점에서는 전부 개발하고 제출했지만 고민했던 점을 정리해보려고 합니다.]]></description>
+            <link>https://hyeok.dev/posts/react-router를 구현해보자</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/react-router를 구현해보자</guid>
+            <pubDate>Fri, 07 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[React에서 검색엔진 최적화]]></title>
+            <description><![CDATA[구글은 위 세 단계를 통해 웹페이지를 소스로 결과를 생성한다.
+1. 크롤링
+Google은 웹에 어떤 페이지가 존재하는지 검색하고 알려진 페이지를 목록에 추가한다.새로운 페이지의 UR]]></description>
+            <link>https://hyeok.dev/posts/React에서 검색엔진 최적화</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/React에서 검색엔진 최적화</guid>
+            <pubDate>Sat, 10 Sep 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Zustand를 사용해보자]]></title>
+            <description><![CDATA[1. 서론
+React에서의 상태관리는 총 2가지로 분류할 수 있어요.서버 상태관리, 로컬 상태관리인데요.
+서버 상태관리 라이브러리는 대표적으로 SWR, React-Query가 있고 로컬 상태관리는 대표적으로 Recoil, Zustand, Jotai, Redux 같은 툴이 있어요.
+로컬 상태관리 툴은 2가지로 분류할 수 있는데 FLUX 구조, Atomic 구조로 나눌 수 있어요.
+오늘은 Flux 구조를 사용하는 Zustand를 사용해보려고 해요.]]></description>
+            <link>https://hyeok.dev/posts/Zustand를 사용해보자</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/Zustand를 사용해보자</guid>
+            <pubDate>Fri, 09 Sep 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Recoil을 사용해보자]]></title>
+            <description><![CDATA[기존에 자주 사용하는 Redux는 사용자의 명령(action)을 Reducer->Store로 전달하여 상태를 변화시키고 그 값을 Component에 반영하는 원리인데 나는 React-Redux를 사용하면서 React에서 쓰는게 좀 어색한데?/React스럽지 않은데?라고 생각했다.]]></description>
+            <link>https://hyeok.dev/posts/Recoil을 사용해보자</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/Recoil을 사용해보자</guid>
+            <pubDate>Thu, 08 Sep 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[깊은 복사, 얕은 복사]]></title>
+            <description><![CDATA[오늘은 자바스크립트에서의 깊은 복사와 얕은 복사를 알아보려고 해요.
+단어에서도 유추할 수 있듯이 깊은 복사는 내부 값 전체를 복사, 얕은 복사는 얕게 복사하는 것이겠죠.?]]></description>
+            <link>https://hyeok.dev/posts/깊은 복사, 얕은 복사</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/깊은 복사, 얕은 복사</guid>
+            <pubDate>Sat, 03 Sep 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vite을 사용하면 좋은 이유]]></title>
+            <description><![CDATA[왜 Vite을 사용해야 하나요?Vite을 사용해야 하는 이유를 정리한 글입니다.
+서론비트? 빗? 그게 뭔가요?
+먼저 vite은 빠른 웹 프로젝트 개발 경험에 포커스를 맞춰 탄생하게 된 빌드 도구에요.발음은 veet과 비슷한 vit입니다.]]></description>
+            <link>https://hyeok.dev/posts/vite을 사용하면 좋은 이유</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/vite을 사용하면 좋은 이유</guid>
+            <pubDate>Sat, 03 Sep 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[apply call bind]]></title>
+            <description><![CDATA[명시적으로 this를 바인딩하는 방법
+call 메서드
+call은 모든 함수에서 사용이 가능하고 this를 특정 객체로 지정이 가능해요.
+call(this, 함수에 전달할 인자)call은 첫번째 인자로 this, 두 번째 인자로 함수의 파라미터를 받아요.]]></description>
+            <link>https://hyeok.dev/posts/apply, call, bind</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/apply, call, bind</guid>
+            <pubDate>Thu, 21 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[JS의 this를 알아보자]]></title>
+            <description><![CDATA[자바스크립트에서 가장 어려운 개념을 뽑으라고 한다면 저는 this와 실행컨텍스트를 선택할 것같은데요.
+이번 post에서는 this의 개념에 대해 알아보도록 해요.]]></description>
+            <link>https://hyeok.dev/posts/this란 무엇인가</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/this란 무엇인가</guid>
+            <pubDate>Wed, 20 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Resume.]]></title>
+            <link>https://hyeok.dev/posts/resume</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/resume</guid>
+            <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[변수 선언과 할당]]></title>
+            <description><![CDATA[변수 선언, 할당
+변수
+let a;
+변할 수 있는 데이터를 만든다. 그 데이터의 식별자는 a로 한다.
+변수 선언
+변수는 선언함으로서 메모리 영역에 저장되는데 아래와 같아요.]]></description>
+            <link>https://hyeok.dev/posts/변수 선언과 할당</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/변수 선언과 할당</guid>
+            <pubDate>Sat, 04 Jun 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[실행 컨텍스트]]></title>
+            <description><![CDATA[Record
+환경레코드 [Environment Record]
+식별자와 식별자에 바인딩된 값을 기록
+호이스팅
+자바스크립트 엔진이 변수나 함수를 먼저 기록함으로서 스코프의 최상단에 위치하는 것처럼 동작하는 것]]></description>
+            <link>https://hyeok.dev/posts/실행컨텍스트</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/실행컨텍스트</guid>
+            <pubDate>Wed, 18 May 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[var let const의 차이]]></title>
+            <link>https://hyeok.dev/posts/var, let, const의 차이</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/var, let, const의 차이</guid>
+            <pubDate>Sat, 09 Oct 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[브라우저 동작 과정]]></title>
+            <description><![CDATA[브라우저 컴포넌트
+브라우저를 구성하는 요소는 다음과 같습니다.]]></description>
+            <link>https://hyeok.dev/posts/브라우저 동작 과정</link>
+            <guid isPermaLink="true">https://hyeok.dev/posts/브라우저 동작 과정</guid>
+            <pubDate>Sat, 09 Oct 2021 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
