@@ -1,15 +1,14 @@
-import { useRef } from 'react'
-import CONFIG from 'morethan-log.config'
-import NavBar from './NavBar'
-import Logo from './Logo'
-import ThemeToggle from './ThemeToggle'
+import React, { useRef } from 'react';
+import NavBar from './NavBar';
+import Logo from './Logo';
+import ThemeToggle from './ThemeToggle';
 
 type Props = {
-  fullWidth: boolean
-}
+  fullWidth: boolean;
+};
 
 const Header: React.FC<Props> = ({ fullWidth }) => {
-  const navRef = useRef(null)
+  const navRef = useRef(null);
 
   return (
     <div
@@ -25,7 +24,7 @@ const Header: React.FC<Props> = ({ fullWidth }) => {
         <NavBar />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

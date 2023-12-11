@@ -1,7 +1,6 @@
-import Link from "next/link";
-
+import React from 'react';
 const NavBar: React.FC = () => {
-  const links = [{ id: 1, name: "About", to: "/resume" }];
+  // const links = [{ id: 1, name: 'About', to: '/resume' }];
   return (
     <div className="flex-shrink-0">
       <ul className="flex flex-row">

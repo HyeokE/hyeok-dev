@@ -1,6 +1,6 @@
-import { getServerSideSitemap } from "next-sitemap";
-import { GetServerSideProps } from "next";
-import CONFIG from "@/morethan-log.config";
+import { getServerSideSitemap } from 'next-sitemap';
+import type { GetServerSideProps } from 'next';
+import CONFIG from '@/morethan-log.config';
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   // Method to source urls from cms
@@ -15,4 +15,6 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 };
 
 // Default export to prevent next.js errors
-export default () => {};
+export default () => {
+  return null;
+};

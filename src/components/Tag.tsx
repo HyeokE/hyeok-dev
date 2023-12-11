@@ -1,16 +1,16 @@
-import { useRouter } from 'next/router'
-import React from 'react'
+import { useRouter } from 'next/router';
+import React from 'react';
 
 type Props = {
-  children: string
-}
+  children: string;
+};
 
 const Tag: React.FC<Props> = ({ children }) => {
-  const router = useRouter()
+  const router = useRouter();
 
   const handleClick = (value: string) => {
-    router.push(`/?tag=${value}`)
-  }
+    router.push(`/?tag=${value}`);
+  };
   return (
     <div
       onClick={() => handleClick(children)}
@@ -18,7 +18,7 @@ const Tag: React.FC<Props> = ({ children }) => {
     >
       {children}
     </div>
-  )
-}
+  );
+};
 
-export default Tag
+export default Tag;

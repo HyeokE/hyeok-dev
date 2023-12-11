@@ -1,7 +1,7 @@
 import Script from 'next/script';
 import CONFIG from 'morethan-log.config';
 
-const Scripts: React.FC = () => (
+const Scripts = () => (
   <>
     {CONFIG?.googleAnalytics?.enable === true && (
       <>

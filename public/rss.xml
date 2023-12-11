@@ -9,10 +9,17 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Oct 2023 12:23:22 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Dec 2023 11:44:11 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 24 Oct 2023 12:23:22 GMT</pubDate>
+        <pubDate>Mon, 11 Dec 2023 11:44:11 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023]]></copyright>
+        <item>
+            <title><![CDATA[useSelect 함수 제작기 (feat: 함수 오버로딩)]]></title>
+            <description><![CDATA[함수 오버로딩을 활용한 useSelect 함수 제작기]]></description>
+            <link>http://localhost:3000/posts/useSelect 함수 제작기</link>
+            <guid isPermaLink="true">http://localhost:3000/posts/useSelect 함수 제작기</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[좋은 코드란 어떤 코드일까]]></title>
             <description><![CDATA[최근 시니어 개발자분과 이야기를 나누면서 좋은 코드란 어떤 코드인가에 대해 고민해보게 되었다.

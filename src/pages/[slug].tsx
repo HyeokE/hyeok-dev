@@ -36,7 +36,7 @@ export async function getStaticProps({ params: { slug } }: any) {
       revalidate: 60,
     };
   } catch (error) {
-    console.log('error');
+    console.error('error');
 
     return;
   }

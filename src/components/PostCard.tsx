@@ -1,12 +1,12 @@
-import Link from "next/link";
-import CONFIG from "morethan-log.config";
-import { formatDate } from "@/src/libs/utils";
-import Tag from "./Tag";
-import { TPost } from "../types";
-import imageLoader from "@/src/libs/next/imageLoader";
-import Image from "next/image";
-import { getTheme } from "@hooks/useThemeEffect";
-
+import Link from 'next/link';
+import CONFIG from 'morethan-log.config';
+import { formatDate } from '@/src/libs/utils';
+import Tag from './Tag';
+import type { TPost } from '../types';
+import imageLoader from '@/src/libs/next/imageLoader';
+import Image from 'next/image';
+import { getTheme } from '@hooks/useThemeEffect';
+import React from 'react';
 type Props = {
   post: TPost;
 };
@@ -14,6 +14,7 @@ type Props = {
 const PostCard: React.FC<Props> = ({ post }) => {
   const theme = getTheme();
   if (post.thumbnail) {
+    return null;
   }
   return (
     <Link href={`/${post.slug}`}>
@@ -44,10 +45,7 @@ const PostCard: React.FC<Props> = ({ post }) => {
             </header>
             <div className="mb-4">
               <time className="flex-shrink-0 text-sm text-gray-600 dark:text-gray-400 ">
-                {formatDate(
-                  post?.date?.start_date || post.createdTime,
-                  CONFIG.lang
-                )}
+                {formatDate(post?.date?.start_date || post.createdTime, CONFIG.lang)}
               </time>
             </div>
             <main className="mb-4">
@@ -56,10 +54,7 @@ const PostCard: React.FC<Props> = ({ post }) => {
               </p>
             </main>
             <div className="flex gap-2">
-              {post.tags &&
-                post.tags.map((tag: string, idx: number) => (
-                  <Tag key={idx}>{tag}</Tag>
-                ))}
+              {post.tags && post.tags.map((tag: string, idx: number) => <Tag key={idx}>{tag}</Tag>)}
             </div>
           </div>
         </article>
