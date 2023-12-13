@@ -44,7 +44,7 @@ class MyDocument extends Document {
             />
             <link
               rel="preload"
-              href="/fonts/SpoqaHanSansNeo-Bold.woff2.woff2"
+              href="/fonts/SpoqaHanSansNeo-Bold.woff2"
               as="font"
               type="font/woff2"
               crossOrigin="anonymous"
